@@ -17,6 +17,13 @@ public class LeapYear {
                 return false;
             }
         }
+        
+        public static void main(String[] args) {
+            List<Integer> data = Arrays.asList(1700, 1800, 1900, 2000, 2100);
+            for (Integer d : data) {
+                System.out.println(d.toString() + " : " + isLeapYear(d));
+            }
+        }
 
     }
 
